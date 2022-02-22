@@ -4,7 +4,9 @@ import (
 
 )
 
-type vehice interface{}
+type vehicle interface{
+
+}
 
 type car struct {
 	model string
