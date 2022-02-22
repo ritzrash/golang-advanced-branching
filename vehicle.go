@@ -97,6 +97,7 @@ func main() {
 			v.truckDetails()
 		default:
 			fmt.Printf("Are you sure this Vehicle Type exists")
+		}
 	}
 }
 
