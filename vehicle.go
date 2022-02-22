@@ -2,7 +2,7 @@ package main
 
 import (
 	"encoding/json"
-	"io/outil"
+	"io/ioutil"
 	"log"
 	"os"
 	"strings"
@@ -135,6 +135,6 @@ func generateRating() {
 				}
 			}
 		}
-		vehResult := vehicleResult[v.Name]
+		vehResult = vehicleResult[v.Name]
 	}
 }
