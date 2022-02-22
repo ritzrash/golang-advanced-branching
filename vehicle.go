@@ -4,6 +4,7 @@ import (
 
 )
 
+type interface vehicle
 
 // Values array for the feedback.json file
 
